@@ -27,8 +27,8 @@ header{
 }
 
 .logo_container{
-    margin-top: 20px;
-    background-image: url("../img/sorianoplano.jpg");
+    margin-top: 10px;
+    background-image: url("img/book-logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -36,9 +36,29 @@ header{
     width: 200px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-left: 240px;
-    height: 120px;
-    width: 150px;
+    margin-left: 200px;
+    height: 90px;
+    width: 70px; 
+}
+.logo-text{
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 300px;
+    margin-top: 15px;
+    vertical-align:top;
+    color: #636267;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+}
+.logo_container h2{
+   margin-top: 30px;
+   margin-left: 78px;
+   font-size: 17px;
+   font-weight:bolder;
+   font-family: 'Roboto', sans-serif;
+   color: #636267;
 }
 .navigation{
     margin-top: 20px;
@@ -60,6 +80,7 @@ header{
     height: 100%;
     color: #636267;
     font-size: 17px;
+    font-weight:bolder;
     font-family: 'Roboto', sans-serif;
 }
 .navigation a li:hover{
@@ -75,7 +96,11 @@ header{
     background: rgb(0, 0, 0);
     margin: 8px;
 }
-
+.content{
+    height: 700px;
+    width: 100%;
+    background-color: #F0F3FA;
+}
 @media (max-width: 1640px){
     body{
         overflow-x: hidden;
