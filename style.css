@@ -37,8 +37,8 @@ header{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: 200px;
-    height: 90px;
-    width: 70px; 
+    height: 92px;
+    width: 72px; 
 }
 .logo-text{
     width: 100px;
@@ -95,6 +95,57 @@ header{
     height: 3px;
     background: rgb(0, 0, 0);
     margin: 8px;
+}
+.main-title{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight: 420;
+    font-family: 'Roboto', sans-serif;
+}
+.main-title2{
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight:bolder;
+    font-family: 'Roboto', sans-serif;
+}
+.main-title3{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 200px;
+    font-size: 17px;
+    font-weight:bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #AEB5C5;
+}
+.main-title4{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 200px;
+    font-size: 17px;
+    font-weight:bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #AEB5C5;
+}
+.main-input{
+    margin-top: 400px;
+    margin-left: 200px;
+    height: 60px;
+    width: 550px;
+    border-radius: 5px;
+    border-width: 0;
+}
+.main-input:focus{  
+    outline: 0;
+}
+.main-img{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 248px;
+    height: 600px;
 }
 .content{
     height: 700px;
