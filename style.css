@@ -133,13 +133,40 @@ header{
 .main-input{
     margin-top: 400px;
     margin-left: 200px;
-    height: 60px;
+    height: 65px;
     width: 550px;
     border-radius: 5px;
     border-width: 0;
 }
 .main-input:focus{  
     outline: 0;
+}
+.input-button{
+    color: #CED6E9;
+    position: absolute;
+    top: 414px;
+    left: 628px;
+    height: 39px;
+    width: 110px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color:#365CA7;
+}
+.play-arrow{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 490px;
+    left: 200px;   
+}
+.arrow-text{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 250px;
+    font-size: 14px;
+    font-weight:bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #848DA4;
 }
 .main-img{
     margin-top: 100px;
