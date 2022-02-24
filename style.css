@@ -171,14 +171,66 @@ header{
 .main-img{
     margin-top: 100px;
     position: absolute;
-    margin-left: 248px;
+    margin-left: 469px;
     height: 600px;
+    border-radius: 15px;
+    width: 600px
 }
 .content{
     height: 700px;
     width: 100%;
     background-color: #F0F3FA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.item1{
+    margin: 110px;
+    background-color: white;    
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    order: 1;
+}
+.item2{
+    margin: 110px;
+    background-color: white;    
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    order: 2;
+}
+.item3{
+    margin: 110px;
+    background-color: white;    
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    order: 3;
+}
+.img-item1{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.img-item2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.img-item3{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.title-item1{
+    margin-left: 20px;
+}
+.title-item2{
+    margin-left: 20px;
+}
+.title-item3{
+    margin-left: 20px;
+}
+    
 @media (max-width: 1640px){
     body{
         overflow-x: hidden;
