@@ -171,9 +171,9 @@ header{
 .main-img{
     margin-top: 100px;
     position: absolute;
-    margin-left: 493px;
+    right: 116px;
     height: 600px;
-    border-radius: 15px;
+    border-radius: 0px;
     width: 530px
 }
 .content{
@@ -251,8 +251,39 @@ header{
         align-items: center;
     }
     .logo_container{
-        transform: none;
-        margin-left: 0;
+        position: absolute;
+        background-image: url("img/book-logo.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        display: inline-block;
+        width: 200px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        left: 0px;
+        height: 92px;
+        width: 72px; 
+    }
+    .logo-text{
+        position: absolute;
+        left: 270px;
+        top: 0px;
+        width: 100px;
+        height: 40px;
+        display: inline-block;
+        margin-bottom: 300px;
+        margin-top: 15px;
+        vertical-align:top;
+        color: #636267;
+        font-family: 'Roboto', sans-serif;
+        font-weight:bolder;
+    }
+    .main-img{
+        margin-top: 100px;
+        position: absolute;
+        right: 0px;
+        height: 600px;
+        width: 530px
     }
     .navigation{
         z-index: 1;
