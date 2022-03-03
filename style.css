@@ -173,7 +173,7 @@ header{
     width: 530px
 }
 .content{
-    height: 700px;
+    height: 480px;
     width: 100%;
     background-color: #F0F3FA;
     display: flex;
@@ -182,7 +182,7 @@ header{
     justify-content: center;
 }
 .item1{
-    margin-top: 120px;
+    margin-top: 90px;
     background-color: white;    
     height: 300px;
     width: 320px;
@@ -190,9 +190,8 @@ header{
     order: 1;
 }
 .item2{
-    margin-top: 120px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 90px;
+    margin-left: 80px;
     background-color: white;    
     height: 300px;
     width: 320px;
@@ -200,7 +199,8 @@ header{
     order: 2;
 }
 .item3{
-    margin-top: 120px;
+    margin-top: 90px;
+    margin-left: 80px;
     background-color: white;    
     height: 300px;
     width: 320px;
@@ -258,11 +258,12 @@ header{
         border-bottom-right-radius: 20px;
         left: 0px;
         height: 92px;
-        width: 72px; 
+        width: 72px;
+        margin-left: 20px;
     }
     .logo-text{
         position: absolute;
-        left: 270px;
+        left: 90px;
         top: 0px;
         width: 100px;
         height: 40px;
@@ -277,9 +278,11 @@ header{
     .main-img{
         margin-top: 100px;
         position: absolute;
-        right: 0px;
-        height: 600px;
-        width: 530px
+        right: 325px;
+        left: 0px;
+        width: 100%;
+        top: 500px;
+        height: 100vh;
     }
     .navigation{
         z-index: 1;
@@ -313,6 +316,63 @@ header{
     }
     .navigation ul{
         margin-right: 20px;
+    }
+    header{
+        height: 1527px;
+        background-color: #E6EAF3;
+    }
+    .content{
+        height: 1240px;
+    }
+}
+@media (max-width: 800px){
+    .main-title{
+        font-size: 29px;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    .main-title2{
+        font-size: 29px;
+        margin-top: 190px;
+        margin-left: 50px;
+    }
+    .main-title3{
+        font-size: 1em;
+        margin-top: 280px;
+        margin-left: 50px;
+    }
+    .main-title4{
+        font-size: 1em;
+        margin-top: 305px;
+        margin-left: 50px;
+    }
+    .main-input{
+        margin-top: 350px;
+        margin-left: 50px;
+        width: 400px;
+    }
+    .input-button{
+        top: 365px;
+        margin-left: -295px;
+    }
+    .play-arrow{
+        top: 445px;
+        left: 50px;
+    }
+    .arrow-text{
+        margin-left: 100px;
+    }
+    .content{
+        background-color: #365CA7;
+    }
+    .item1{
+        margin-left: 0;
+    }
+    .item2{
+        margin-left: 0;
+    }
+    .item3{
+        margin-left: 0;
     }
 }
 @keyframes navLinkFade {
