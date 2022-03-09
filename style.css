@@ -235,6 +235,7 @@ header{
     background-color: #F0F3FA;
 }
 .book-exchange{
+    position: absolute; 
     border-radius: 100%;
     margin-top: 100px;
     margin-left: 200px;
@@ -256,6 +257,7 @@ p span {
     top: 1450px;
     left: 870px;
     font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
 }
 #loader-background{
     position: fixed;
@@ -390,6 +392,30 @@ p span {
     .content{
         height: 1240px;
     }
+    .book-exchange{
+        height: 500px;
+        width: 500px;   
+        border-radius: 100%;
+        margin-top: 100px;
+        margin-left: 180px;
+        position: absolute;   
+        top: 2000px;
+    }
+    .about-title{
+        position: absolute;
+        top: 2120px;
+        left: 740px;
+        font-size: 60px;
+        font-weight:bolder;
+        font-family: 'Roboto', sans-serif;
+    }
+    .about-text{
+        font-size: 19px;
+        position: absolute;
+        top: 2260px;
+        left: 740px;
+        font-family: 'Roboto', sans-serif;
+    }
 }
 @media (max-width: 1200px){
     .content{
@@ -402,8 +428,32 @@ p span {
     }
     .item3{
         margin-left: 0;
+    }    
+    .book-exchange{
+        height: 400px;
+        width: 400px;   
+        border-radius: 100%;
+        margin-top: 100px;
+        margin-left: 70px;
+        position: absolute;   
+        top: 2800px;
     }
-    
+    .about-title{
+        position: absolute;
+        top: 2910px;
+        left: 500px;
+        font-size: 58px;
+        font-weight:bolder;
+        font-family: 'Roboto', sans-serif;
+    }
+    .about-text{
+        font-size: 18px;
+        position: absolute;
+        top: 3050px;
+        left: 500px;
+        font-family: 'Roboto', sans-serif;
+        margin-right: 30px;
+    }
 }
 @media (max-width: 800px){
     .main-title{
@@ -462,6 +512,30 @@ p span {
     }
     .mobile-menu{
         margin-right: 30px;
+    }
+    .book-exchange{
+        height: 200px;
+        width: 200px;   
+        border-radius: 100%;
+        margin-top: 100px;
+        margin-left: 70px;
+        position: absolute;   
+        top: 2800px;
+    }
+    .about-title{
+        position: absolute;
+        top: 2895px;
+        left: 295px;
+        font-size: 30px;
+        font-weight:bolder;
+        font-family: 'Roboto', sans-serif;
+    }
+    .about-text{
+        font-size: 19px;
+        position: absolute;
+        top: 2960px;
+        left: 300px;
+        font-family: 'Roboto', sans-serif;
     }
 }
 @media (max-width: 500px){
@@ -549,6 +623,31 @@ p span {
     }
     .mobile-menu{
         margin-right: 50px;
+    }
+    .book-exchange{
+        height: 200px;
+        width: 200px;   
+        border-radius: 100%;
+        margin-top: 100px;
+        margin-left: 20px;
+        position: absolute;   
+        top: 2800px;
+    }
+    .about-title{
+        position: absolute;
+        top: 3095px;
+        left: 25px;
+        font-size: 30px;
+        font-weight:bolder;
+        font-family: 'Roboto', sans-serif;
+    }
+    .about-text{
+        font-size: 15px;
+        position: absolute;
+        top: 3170px;
+        left: 20px;
+        font-family: 'Roboto', sans-serif;
+        margin-right: 20px;
     }
 }
 @media (max-width: 280px){
