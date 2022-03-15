@@ -30,7 +30,7 @@ header{
 .progress-bar{
     height: 8px;
     background:#dee045;
-    width: 15%;
+    width: 0%;
     transition: all 0.5s ease;   
 }
 .logo_container{
@@ -317,6 +317,29 @@ p span {
     border-left-color: #a4a7a4;
     border-radius: 100%;
     animation: loader 1s linear infinite;
+  }
+  .back-to-top{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background-image: url("img/play-arrow.jpg");
+    background-size: cover;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+    transition: opacity 1s ease;
+
+  }
+  .hidden{
+    visibility: hidden;
   }
   @keyframes loader {
     to {
