@@ -22,6 +22,17 @@ header{
     display: block;
     margin: 0 auto auto;
 }
+.progress-container{
+    width: 100%;
+    background-color: #36a761;
+    height: 8px;
+}
+.progress-bar{
+    height: 8px;
+    background:#dee045;
+    width: 15%;
+    transition: all 0.5s ease;   
+}
 .logo_container{
     margin-top: 10px;
     background-image: url("img/book-logo.png");
